@@ -114,9 +114,9 @@ const mainFn = () => {
 
 mainFn();
 
-window.addEventListener("resize", () => {
-  window.location.reload();
-});
+// window.addEventListener("resize", () => {
+//   window.location.reload();
+// });
 
 window.addEventListener("scroll", () => {
   mainFn();
